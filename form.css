@@ -1,0 +1,27 @@
+.form {
+    background-color: burlywood;
+    padding: 10px;
+}
+.head {
+    border: 1px solid;
+    padding: 10px;
+}
+.details {
+    background-color: burlywood;
+    padding: 10px;
+}
+.gender {
+    padding: 10px;
+    background-color: burlywood;
+}
+.contact {
+    background-color: burlywood;
+    padding: 10px;
+}
+.login{
+    background-color: burlywood;
+    padding: 10px;
+}
+.submit{
+    background-color: burlywood;
+}
