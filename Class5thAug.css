@@ -1,0 +1,48 @@
+ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.secret{
+    display: none;
+}
+.box1{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+.box2{
+    width: 100px;
+    height: 1000px;
+    display: block;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+.sidebar {
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+    padding: 10px;
+}
+.tooltip-container {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 30px;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.tooltip-container:hover .tooltip {
+  display: block;
+}
